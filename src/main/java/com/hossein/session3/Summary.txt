@@ -1,0 +1,17 @@
+functionalInterafce just had single static method and use @FunctionalInterface
+
+lambda codes block will be executed when needed.
+
+invoke dynamic instruction
+
+lambda are actually lightweight and dont create any unnecessary class file.when we create a inner class finnaly create two class file
+
+functional programing : what to do
+immperative programming : how to do 
+
+
+sumOfEvens = IntStream.rangeClosed(0,100)
+		.filter(i ->  i % 2 == 0)
+		.reduce((x, y) -> x+y)
+		.getAsInt();
+		System.out.println(sumOfEvens);

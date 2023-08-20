@@ -1,0 +1,23 @@
+8 functional interfaces that predifiend:
+1-predicate -> to test some thing (T->boolean)
+2-consumer -> to consume something and return nothing (T-> nothing)
+3-function -> get something and return something (T->R) the type of the argument not needed to match with return type
+4-supplier->get exceptional thing and read and return something ( ()->T)
+5-unaryOperation (T->T)he type of the argument must be match with return type
+6-BIPredicate -> if you need predicate with two argument must be use BiPredicate (T,U)-> boolean
+7-BiConsumer _, if you need consumer with two argument must be use BiConsumer (T,U)-> void
+8- BiFunction -> if you want use three input parameters you can use it (T,R,K)->X
+
+
+java.util.function contain already defined genrated functional interfaces
+
+
+Generic Type 
+
+supplier : has method get that return something without taking any input
+
+unaryOperator= get one type and return same type -(T)->T
+
+BiFunction<T,U,R> = get two parameters and return something
+
+BinaryOperator<T>=equals of function <T,T,T> that means get two parameter and return somthing with sameType

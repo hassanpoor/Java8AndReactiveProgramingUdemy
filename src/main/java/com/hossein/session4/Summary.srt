@@ -1,0 +1,5 @@
+lambda :1-no name;no access type;no need return type
+lambda is invoke dynamic that means we can add methode implementation at runtime
+when class compile , create class file and set type of each method on it.
+lambda optimes the memory
+

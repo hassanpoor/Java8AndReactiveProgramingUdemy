@@ -1,0 +1,7 @@
+mehtod refrence = ()-> System.out.printLn() => System.out::printLn
+
+object::instanceMethod
+Class::staticMethod
+Class::instanceMethod
+Class::new => Function<Runable,Thread> threadGenerator=r -> new Thread(r); with method refrence=> 
+Function<Runable,Thread> threadGenerator=Thread::new;

@@ -1,0 +1,32 @@
+Optional use where something may be null or not
+Optional is a box that value wrap on ;
+optioanl contain 16 bytes an object and its immutable .
+for create optional 
+optional.of(value);
+optional.empty();
+optional.ofnullable(value);
+optional.ofnullable(null);
+
+optional.get use for get value of optional but is risky, if optioanl dosent have value get no such element exception then get is completly use less
+for use it must be use isPresent 
+optional.isPresent()?optional.get():0;
+
+orElse use if optional has value get it or dosent have value return some thing else
+
+orElseGet use if optional has value get it or dosent have value use supplier
+
+orElseThrow 
+orElseGet use if optional has value get it or dosent have value throw exception supplier
+
+
+optional has :
+map = use for transform value
+flatMap
+fillter
+
+ifPresnet(consumer)
+ifPresentOrElse(consumer,runnable)
+stream()
+or(supplier)
+equals(object)
+hashCode()

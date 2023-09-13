@@ -1,0 +1,22 @@
+A Pure Function is a function (a block of code) that always returns the same result
+ if the same arguments are passed.
+ It does not depend on any state or data change during a program's execution. Rather, it only depends on its input arguments
+
+Composition : a.compose(b) means first run b then a run on result of b
+
+Closure: is a function that refer to free variables in lexical context
+values in functional must be final ;
+
+for get multiple input must be use function in function
+Exp: Function<Long,Function<String,Function<Double,Squre>>> funca
+
+in Functional we are lazy evaluation ,
+lazy valuation is an evaluation strategy which delays the evaluation
+of an expression until the value is needed and we can take advantage of this behavior to delaying to even
+a wide method invocation or evaluation of an expression because some values might never be needed or
+some expressions are never needed to be evaluated depending on some conditions.
+
+
+Recursion :
+1:Tail Recursion :code exp
+2:Non Tail Recursion: may be have stack over flow
